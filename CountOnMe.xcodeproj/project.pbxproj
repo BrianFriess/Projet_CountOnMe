@@ -12,7 +12,7 @@
 		1FA43BD8224E569900F565CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FA43BD6224E569900F565CB /* Main.storyboard */; };
 		1FA43BDA224E569A00F565CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FA43BD9224E569A00F565CB /* Assets.xcassets */; };
 		1FA43BDD224E569A00F565CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FA43BDB224E569A00F565CB /* LaunchScreen.storyboard */; };
-		D30125A926381E63004CE746 /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30125A826381E63004CE746 /* AlertManager.swift */; };
+		D30125A926381E63004CE746 /* AlerteManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30125A826381E63004CE746 /* AlerteManager.swift */; };
 		D30E91282632D0E8005001B8 /* CountOnMeTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30E91272632D0E8005001B8 /* CountOnMeTestCase.swift */; };
 		D3BEF82A26413D4C00CA9D44 /* RoundCornerOperator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BEF82926413D4C00CA9D44 /* RoundCornerOperator.swift */; };
 		D3BEF82C26413DD500CA9D44 /* RoundCornerTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BEF82B26413DD500CA9D44 /* RoundCornerTextView.swift */; };
@@ -38,7 +38,7 @@
 		1FA43BD9224E569A00F565CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FA43BDC224E569A00F565CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FA43BDE224E569A00F565CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D30125A826381E63004CE746 /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
+		D30125A826381E63004CE746 /* AlerteManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlerteManager.swift; sourceTree = "<group>"; };
 		D30E91192632D095005001B8 /* CountOnMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountOnMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D30E911D2632D095005001B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D30E91272632D0E8005001B8 /* CountOnMeTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountOnMeTestCase.swift; sourceTree = "<group>"; };
@@ -102,7 +102,7 @@
 		D30125A726381E50004CE746 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
-				D30125A826381E63004CE746 /* AlertManager.swift */,
+				D30125A826381E63004CE746 /* AlerteManager.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -245,7 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D30125A926381E63004CE746 /* AlertManager.swift in Sources */,
+				D30125A926381E63004CE746 /* AlerteManager.swift in Sources */,
 				D3BEF82A26413D4C00CA9D44 /* RoundCornerOperator.swift in Sources */,
 				1FA43BD5224E569900F565CB /* ViewController.swift in Sources */,
 				D3DE2DA6262EE12200F1CB03 /* Logic.swift in Sources */,
@@ -424,7 +424,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.vincentsaluzzo.CountOnMe;
+				PRODUCT_BUNDLE_IDENTIFIER = "-fr.FriessBrian.CountOnMe";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -442,7 +442,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.vincentsaluzzo.CountOnMe;
+				PRODUCT_BUNDLE_IDENTIFIER = "-fr.FriessBrian.CountOnMe";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -11,22 +11,7 @@ import Foundation
 struct Logic{
     
     private var text = ""
-        
 
-    
-    mutating func continueCalcul(){
-        //we check if we have an value in element.last
-        guard let first = elements.last else {
-            return
-        }
-        //if yes, we check if the calcul have a result
-        if expressionHaveResult{
-            //if yes, we reset the calcul and we give first at updateInfo
-            resetInfo()
-            updateInfo(first)
-        }
-    }
-    
     var currentValue : String{
         return text
     }
@@ -72,6 +57,18 @@ struct Logic{
         return elements.last?.contains(where: {$0 == "."}) ?? false
     }
     
+    mutating func continueCalcul(){
+        //we check if we have an value in element.last
+        guard let first = elements.last else {
+            return
+        }
+        //if yes, we check if the calcul have a result
+        if expressionHaveResult{
+            //if yes, we reset the calcul and we give first at updateInfo
+            resetInfo()
+            updateInfo(first)
+        }
+    }
     
     //we check if we have a divison
     private var haveADivision = false
